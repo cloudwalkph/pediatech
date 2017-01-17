@@ -1,0 +1,363 @@
+@media (max-width: 768px) {
+    body {
+        font-size: 15px !important;
+        line-height: 24px !important;
+    }
+    .content-area-2{
+    	height: 80% !important;
+    }
+}
+
+@media screen {
+
+	body {
+		background: url(../images/bodybg.png)no-repeat center bottom fixed;
+		background-size: 100% auto;
+		color: #585858;
+		font-family: "nunito-light","avenir-light","Arial","sans-serif";
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 30px;
+		min-width: 320px;
+		overflow-x: hidden;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+		color: #2b734c;
+		font-family: 'itc-bold';
+		margin: 0 0 25px;
+		letter-spacing: 7px;
+	}
+	
+	p, .iframe  {
+		margin: 0 0 30px;
+	}
+	
+	a {
+		color: #50abff;
+		transition: color .4s;
+		text-decoration: none;
+		font-family: 'avenir-medium';
+	}
+	
+	a:hover, a:focus {
+		text-decoration: none;
+		outline: none;
+		color: inherit;
+	}
+	
+	ul, ol {
+		padding-left: 15px;
+		display: inline-block;
+		width: auto;
+		max-width: 840px;
+		width: 100%;
+		display: block;
+		margin: 0 auto 30px;
+	}
+	
+	ul li, ol li {
+		margin: 0 0 15px;
+		text-align: left;
+	}
+	
+	.itc-bold {
+		font-family: 'ITC-bold';
+	}
+	
+	.itc-regular {
+		font-family: 'ITC-regular';
+	}
+	
+	.nunito-light {
+		font-family: 'nunito-light';
+	}
+	
+	.avenir-heavy {
+		font-family: 'avenir-heavy'
+	}
+	
+	/** CONTENT ALIGNMENTS **/
+	.alignnone, .alignleft, .alignright, .aligncenter {
+		margin: 0 auto 30px;
+	}
+	
+	.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+		max-height: 560px;
+	}
+	
+	.iframe {
+		max-width: 845px;
+		width: 100%;
+		max-height: 560px;
+		height: 100%;
+		margin: 0 auto 30px;
+	}
+	
+	iframe {
+		border: 0;
+	}
+	
+	/** CONTAINERS **/
+	.container {
+		max-width: 1194px;
+		width: 100%;
+	}
+	
+	/** BG ACCENTS **/
+	.bg-accent-1 {
+		background: #fff;
+	}
+	
+	/** BTNs **/
+	.btn {
+		background: transparent;
+		border: 5px solid #FE0000;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-o-border-radius: 0;
+		-ms-border-radius: 0;
+		color: #FE0000;
+		text-transform: uppercase;
+		font-size: 22px;
+		padding: 10px 15px;
+		min-width: 215px;
+		transition: border color .4s;
+	}
+	
+	.btn:hover {
+		color: #636363;
+		border: 2px solid #636363;
+	}
+	
+	/** BGs **/
+	.bg-img {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-ms-background-size: cover;
+	}
+	
+	/** SECTIONS **/
+	section {
+		padding: 50px 0;
+	}
+	
+	section p:last-child {
+		margin: 0;
+	}
+	
+	/** FORMS **/
+	.wpcf7 {
+		max-width: 1000%;
+	}
+	
+	.wpcf7 .form-group {
+		margin: 0 0 35px;
+		position: relative;
+	}
+	
+	.wpcf7 div.wpcf7-form .form-group:last-child {
+		margin: 0;
+	}
+	
+	.wpcf7 .wpcf7-form-control {
+		background: #ebebeb;
+		border: 1px solid #d3d3d3;
+		border-radius: 0;
+		color: #636363;
+		font-size: 16px;
+		height: auto;
+		line-height: 18px;
+		padding: 25px 30px;
+		width: 100%;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+	
+	/* FORM CAPTCHA */
+	.wpcf7 .wpcf7-captchac, .wpcf7 .wpcf7-captchar {
+		width: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	.wpcf7 .wpcf7-captchac {
+		height: 70px;
+		width: auto;
+		margin: 0 0 35px;
+	}
+	
+	.wpcf7 .wpcf7-captchar  {
+		max-width: 200px;
+	}
+	
+	.wpcf7 .wpcf7-captchac {
+		padding: 0;
+		display: inline-block;
+	}
+	
+	.form-inline .form-group.form-captcha .wpcf7-form-control-wrap {
+		display: inline-block;
+	}
+	
+	.form-group.form-captcha {
+		text-align: center;
+	}
+	
+	.wpcf7 .form-captcha .wpcf7-not-valid-tip {
+		position: absolute;
+	}
+	
+	.wpcf7 .wpcf7-textarea {
+		resize: none;
+	}
+	
+	.wpcf7 .wpcf7-submit {
+		background: #2C744C;
+		transition: all .4s;
+		color: #fff;
+	}
+	
+	.wpcf7 .ajax-loader {
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		margin-top: -8px;
+	}
+	
+	.wpcf7 .wpcf7-submit:hover {
+		color: #636363;
+		border: 1px solid #636363;
+		background: #fff;
+	}
+	
+	
+	/* FORM INLINES */
+	.wpcf7 .form-inline .form-group {
+		width: 100%;
+	}
+	
+	.form-inline .form-group .wpcf7-form-control-wrap {
+		margin: 0 0 35px;
+		display: block;
+	}
+	
+	.form-inline .form-group .wpcf7-form-control-wrap:last-child {
+		margin: 0;
+	}
+	
+	/* FORM VALIDATION MESSAGES */
+	.wpcf7 .wpcf7-response-output {
+		margin: 0;
+		padding: 15px 35px;
+		color: #fff;
+		background: #398F14;
+	}
+	
+	.wpcf7 .wpcf7-response-output.wpcf7-validation-errors, .wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ng {
+		background: #f74a4a;
+		border: 2px solid #ff0000;
+	}
+	
+	.wpcf7 .wpcf7-not-valid-tip {
+		font-size: 14px;
+	}
+	
+	.wpcf7 .wpcf7-response-output.wpcf7-mail-sent-ok  {
+		color: #fff;
+	}
+	
+
+}
+
+@media( min-width: 440px ) {
+	
+	/** FORMS **/
+	.wpcf7 .wpcf7-captchac {
+		margin: 0;
+	}
+	
+	.form-group.form-captcha {
+		text-align: left;
+	}
+	
+	
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	
+	/** CONTENT ALIGNMENTS **/
+	.alignnone, .alignleft, .alignright, .aligncenter {
+		display: block;
+	}
+	
+	.alignnone {
+		margin: 0 0 30px;
+	}
+	
+	.alignleft {
+		margin: 0 30px 30px 0;
+		float: left;
+	}
+	
+	.alignright {
+		margin: 0 0 30px 30px;
+		float: right;
+	}
+	
+	.aligncenter {
+		margin: 0 auto 30px;
+	}
+	
+	/** SECTIONS **/
+	section {
+		padding: 75px 0;
+	}
+	
+	/** FORMS **/
+	/* FORM INLINE */
+	.wpcf7 .wpcf7-form .form-inline .form-group {
+		width: 50%;
+		margin: 0 -2px 55px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	
+	.form-inline .form-group .wpcf7-form-control-wrap {
+		margin: 0 0 55px;
+	}
+	
+	.wpcf7 .form-inline .form-group:nth-child(odd) {
+		padding-right: 24px;
+	}
+	
+	.wpcf7 .form-inline .form-group:nth-child(even) {
+		padding-left: 24px;
+	}
+	
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	/** SECTIONS **/
+	section {
+		padding: 110px 0;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+	.iframe.embed-responsive {
+		padding-bottom: 50%;
+	}
+
+}

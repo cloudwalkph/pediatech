@@ -1,0 +1,14 @@
+/*   
+Theme Name: Sytian Wordpress Bootstrap
+Theme URI: 
+Description: Bare Wordpress URL
+Author: Kits Perez of Sytian-Productions
+Author URI: http://www.sytian-productions.com
+Version: 1.0
+*/
+@media (max-width: 768px) {
+    body {
+        font-size: 13px !important;
+        line-height: 24px !important;
+    }
+}
