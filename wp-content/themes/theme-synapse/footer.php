@@ -2,10 +2,10 @@
 					<div class="footer-top">
 						<div class="container">
 							<div class="row">
-								<div class="col-xs-12 col-sm-4 text-center copyright-text">
-									<?php if( get_field('copyright', 'options') ) : ?>
-										<?php the_field('copyright', 'options'); ?>
-									<?php endif; ?>
+								<div class="col-xs-12 col-sm-4 copyright-text">
+                                    <?php if( get_field('left_content', 'options') ) : ?>
+                                        <?php the_field('left_content', 'options'); ?>
+                                    <?php endif; ?>
 								</div>
                                 <div class="col-xs-12 col-sm-4 text-center">
                                     <?php
@@ -40,17 +40,17 @@
 						</div>
 					</div>
 					
-					<!--<div class="footer-bottom">
+					<div class="footer-bottom">
 						<div class="container">
 							<div class="row">
 								<div class="col-xs-12 text-center copyright-text">
-									<?php /*if( get_field('copyright', 'options') ) : */?>
-										<?php /*the_field('copyright', 'options'); */?>
-									<?php /*endif; */?>
+									<?php if( get_field('copyright', 'options') ) : ?>
+										<?php the_field('copyright', 'options'); ?>
+									<?php endif; ?>
 								</div>
 							</div>
 						</div>
-					</div>-->
+					</div>
 				</footer>
 			<?php wp_footer();?>
 		</div>

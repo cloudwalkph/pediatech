@@ -23,10 +23,10 @@
 	}
 	
 	h1, h2, h3, h4, h5, h6 {
-		color: #2b734c;
+		/*color: #2b734c;*/
 		font-family: 'itc-bold';
-		margin: 0 0 25px;
-		letter-spacing: 7px;
+		/*margin: 0 0 25px;*/
+		/*letter-spacing: 7px;*/
 	}
 	
 	p, .iframe  {
@@ -216,7 +216,7 @@
 	}
 	
 	.wpcf7 .wpcf7-submit {
-		background: #2C744C;
+		background: #00a3de;
 		transition: all .4s;
 		color: #fff;
 	}
@@ -229,8 +229,8 @@
 	}
 	
 	.wpcf7 .wpcf7-submit:hover {
-		color: #636363;
-		border: 1px solid #636363;
+		color: #00a3de;
+		border: 1px solid #00a3de;
 		background: #fff;
 	}
 	

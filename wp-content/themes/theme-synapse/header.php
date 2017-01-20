@@ -17,7 +17,7 @@
             ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/synex-logo.ico" />
+		<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/logo-pedia.ico" />
 
         <?php wp_head(); ?>
 
