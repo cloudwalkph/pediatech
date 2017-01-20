@@ -23,7 +23,7 @@
 
 	<style>
 		body {
-    		background: transparent url("http://webdesignph.net/synex/wp-content/uploads/2015/07/Synex-Footer-Image.png") no-repeat fixed center bottom / 100% auto;
+    		/*background: transparent url("http://webdesignph.net/synex/wp-content/uploads/2015/07/Synex-Footer-Image.png") no-repeat fixed center bottom / 100% auto;*/
     		color: #585858;
     		font-family: "nunito-light","avenir-light","Arial","sans-serif ITC-regular;"
     		font-weight: normal;
@@ -90,7 +90,7 @@ a{
 								$newLogo = wp_get_attachment_image_src($logo, 'logo', true);
 								$logoAlt = get_post_meta($logo, '_wp_attachment_image_alt', true);
 							?>
-								<a href="/"><img class="img-responsive" src="<?php echo $newLogo[0]; ?>" rel="nofollow" alt="<?php echo $logoAlt; ?>" ></a>
+								<a href="/"><img class="img-responsive" src="/wp-content/uploads/2017/01/logo-pedia.jpg" rel="nofollow" alt="<?php echo $logoAlt; ?>" ></a>
 							<?php endif; ?>
 						</div>
 						<!-- //LOGO -->

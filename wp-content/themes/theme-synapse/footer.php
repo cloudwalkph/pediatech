@@ -2,21 +2,21 @@
 					<div class="footer-top">
 						<div class="container">
 							<div class="row">
-								<div class="col-xs-12 col-sm-4 footer-logo">
-									<?php 
-										if( get_field('footer_logo', 'options') ) : 
-											$footerLogo = get_field('footer_logo', 'options');
-											$newFooterLogo = wp_get_attachment_image_src($footerLogo, 'footer-logo-thumb', true);
-											$footerLogoAlt = get_post_meta($footerLogo, '_wp_attachment_image_alt', true );
-									?>
-										<a href="<?php bloginfo('url'); ?>" rel="nofollow"><img src="<?php echo $newFooterLogo[0]; ?>" alt="<?php echo $footerLogoAlt; ?>"></a>
-									<?php endif; ?>
-								</div>
 								<div class="col-xs-12 col-sm-4 text-center copyright-text">
 									<?php if( get_field('copyright', 'options') ) : ?>
 										<?php the_field('copyright', 'options'); ?>
 									<?php endif; ?>
 								</div>
+                                <div class="col-xs-12 col-sm-4 text-center">
+                                    <?php
+                                    if( get_field('footer_logo', 'options') ) :
+                                        $footerLogo = get_field('footer_logo', 'options');
+                                        $newFooterLogo = wp_get_attachment_image_src($footerLogo, 'footer-logo-thumb', true);
+                                        $footerLogoAlt = get_post_meta($footerLogo, '_wp_attachment_image_alt', true );
+                                        ?>
+                                        <a href="<?php bloginfo('url'); ?>" rel="nofollow"><img src="/wp-content/uploads/2017/01/logo-pedia1.png" alt="<?php echo $footerLogoAlt; ?>"></a>
+                                    <?php endif; ?>
+                                </div>
 								<div class="col-xs-12 col-sm-4 right-content">
 									<div class="footer-right-content">
 										<?php if( get_field('right_content', 'options') ) : ?>

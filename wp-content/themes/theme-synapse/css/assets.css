@@ -11,7 +11,7 @@
 @media screen {
 
 	body {
-		background: url(../images/bodybg.png)no-repeat center bottom fixed;
+		/*background: url(../images/bodybg.png)no-repeat center bottom fixed;*/
 		background-size: 100% auto;
 		color: #585858;
 		font-family: "nunito-light","avenir-light","Arial","sans-serif";

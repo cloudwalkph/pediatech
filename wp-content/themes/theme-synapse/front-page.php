@@ -3,19 +3,19 @@
 <div id="main" class="main">
 	
 	<?php if( have_posts() ) : ?>
-		<section class="content">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
+		<div>
+<!--			<div class="container">-->
+<!--				<div class="row">-->
+<!--					<div class="col-xs-12">-->
 						<?php 
-							while( have_posts() ) : the_post(); 
+							while( have_posts() ) : the_post();
 							the_content();
-							endwhile; 
+							endwhile;
 						?>
-					</div>
-				</div>
-			</div>
-		</section>
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+		</div>
 	<?php endif; ?>
 	
 	<!-- ROUND ABOUT SLIDER -->
@@ -24,9 +24,8 @@
 			<div class="container">
 				<div class="roundabout-wrapper">
 					<div class="row">
-						<div class="col-xs-12 text-center">
-							<hr>
-								<p class="roundabout-tagline">How do we deliver this promise?</p>
+						<div class="col-xs-12 text-center" style="margin-top:50px;">
+								<p class="roundabout-tagline" style="line-height: 8vh;"><b>THE LATEST ON MEDICINE TECHNOLOGY</b></p>
 							
 							<ul class="roundabout-list list-unstyled">
 								<?php foreach( get_field('round_about_slider') as $raSlider ) : ?>
